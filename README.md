@@ -40,6 +40,7 @@ This project involves training a Deep Convolutional Generative Adversarial Netwo
    ```
 
 2. Use the GUI to upload a MATLAB file and start the training process.
+3. To see live result in TensorBoard use this command in the console: `python -m tensorboard.main --logdir=logs`      
 
 #### GUI Parameters
 - **Learning Rate**: The rate at which the model learns during training. A lower value means slower learning.
